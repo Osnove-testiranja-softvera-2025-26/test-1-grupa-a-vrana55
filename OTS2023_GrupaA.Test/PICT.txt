@@ -1,0 +1,6 @@
+﻿PlayerPosition: Valid_Standard, MapBarrier, Outside_Map, Hidden
+RevealHiddenItemPos:  Valid_Standard, MapBarrier, Outside_Map, Hidden
+
+IF [HiddenGold] > 0 THEN [RevealItem] = "Yes";
+IF [RevealItem] = "No" THEN [HiddenGold] = 0;
+IF[]
